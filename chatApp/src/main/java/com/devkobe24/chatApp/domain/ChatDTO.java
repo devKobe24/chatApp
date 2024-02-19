@@ -6,7 +6,7 @@ import lombok.Data;
 
 @Data
 @Builder
-public class ChatDto {
+public class ChatDTO {
   // 메시지 타입: 입장, 채팅
   public enum MessageType {
     ENTER, TALK
